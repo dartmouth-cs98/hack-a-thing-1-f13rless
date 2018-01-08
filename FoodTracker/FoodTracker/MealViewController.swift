@@ -28,8 +28,10 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         super.viewDidLoad()
         
         // Handle the text field’s user input through delegate callbacks.
-        // View controller sees itsself as the delegate of its nameTextField property
+        // View controller sees itself as the delegate of its nameTextField property
         nameTextField.delegate = self
+        // Enable the Save button only if the text field has a valid Meal name.
+        updateSaveButtonState()
     }
 
 //MARK: UITextFieldDelegate
@@ -41,8 +43,18 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        // sets the meal label to the text the user entered in the text field
+        //check if the text field has text and update the save button (enabling it) if it does
+        updateSaveButtonState()
+        //set the title to the text the user entered
+        navigationItem.title = textField.text
+        
     }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        // Disable the Save button while editing.
+        saveButton.isEnabled = false
+    }
+    
     
 //MARK: UIImagePickerControllerDelegate
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -67,7 +79,12 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
 
 //MARK: Navigation
-// This method lets you configure a view controller before it's presented.
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        // dismisses the modal scene and animates the transition back to the meal list scene.
+        dismiss(animated: true, completion: nil)
+    }
+    
+    // This method lets you configure a view controller before it's presented.
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     super.prepare(for: segue, sender: sender)
     // Configure the destination view controller only when the save button is pressed.
@@ -104,6 +121,14 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Make sure ViewController is notified when the user picks an image.
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
+    }
+    
+    //MARK: Private Methods
+    private func updateSaveButtonState() {
+        // Disable the Save button if the text field is empty.
+        let text = nameTextField.text ?? ""
+        //only enable save button if text is not empty
+        saveButton.isEnabled = !text.isEmpty
     }
 
 }
