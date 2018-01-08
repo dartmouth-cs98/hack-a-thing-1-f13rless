@@ -1,7 +1,7 @@
 ### Intro
 I attempted to get an ios app up and running. I followed the tutorial [here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html#//apple_ref/doc/uid/TP40015214-CH2-SW1) and was able to make it through all of the "Building the UI" section and most of the "Working with Table Views" section, a screenshot of one of the screens is shown below.
 
-<img src="image1.png" width="200" height="400">
+<img src="image1.png" width="200" height="550">
 
 
 
