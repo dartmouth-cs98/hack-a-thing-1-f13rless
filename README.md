@@ -1,16 +1,17 @@
 ### Intro
-I attempted to get an ios app up and running. I followed the tutorial [here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html#//apple_ref/doc/uid/TP40015214-CH2-SW1) and was able to make it through all of the "Building the UI" section and most of the "Working with Table Views" section, a screenshot of one of the screens is shown below.
+I attempted to get an ios app up and running. I followed the tutorial [here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html#//apple_ref/doc/uid/TP40015214-CH2-SW1) and was able to make it through all of the "Building the UI" section and most of the "Working with Table Views" section, a screenshot of the two screens is shown below.
 
 <img src="image1.png" width="300" height="550">
 
 <img src="image2.png" width="300" height="550">
 
 
-### What I learneds
+### What I learned
 
 * How to navigate & use Xcode.
 * How to add buttons, images, and labels to ios apps
 * How to use a storyboard to create a UI and then link it to functionality in code
+* How to add naviagation between screens in ios apps
 * How to use ios simulator to view and test an app
 * How to use the unit test templates built into Xcode to test my app and find bugs
 
