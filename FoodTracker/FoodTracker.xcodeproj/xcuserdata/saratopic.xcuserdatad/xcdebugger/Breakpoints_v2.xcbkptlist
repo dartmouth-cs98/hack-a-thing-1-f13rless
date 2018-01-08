@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodTracker/MealTableViewCell.swift"
+            timestampString = "537077168.0436471"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MealTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodTracker.MealTableViewCell.__deallocating_deinit"
+                  moduleName = "FoodTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saratopic/CS98/FoodTracker/FoodTracker/MealTableViewCell.swift"
+                  timestampString = "537076637.336477"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodTracker.MealTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; FoodTracker.MealTableViewCell"
+                  moduleName = "FoodTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saratopic/CS98/FoodTracker/FoodTracker/MealTableViewCell.swift"
+                  timestampString = "537076637.339114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodTracker.MealTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; FoodTracker.MealTableViewCell"
+                  moduleName = "FoodTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saratopic/CS98/FoodTracker/FoodTracker/MealTableViewCell.swift"
+                  timestampString = "537076637.341848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodTracker.MealTableViewCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FoodTracker.MealTableViewCell&gt;"
+                  moduleName = "FoodTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saratopic/CS98/FoodTracker/FoodTracker/MealTableViewCell.swift"
+                  timestampString = "537076637.3446749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodTracker.MealTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;FoodTracker.MealTableViewCell&gt;"
+                  moduleName = "FoodTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saratopic/CS98/FoodTracker/FoodTracker/MealTableViewCell.swift"
+                  timestampString = "537076637.348472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
