@@ -6,7 +6,7 @@ I attempted to get an ios app up and running. I followed the tutorial [here](htt
 <img src="image2.png" width="300" height="550">
 
 
-### What I learned
+### What I learneds
 
 * How to navigate & use Xcode.
 * How to add buttons, images, and labels to ios apps
