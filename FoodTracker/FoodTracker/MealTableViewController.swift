@@ -125,4 +125,19 @@ class MealTableViewController: UITableViewController {
         
     }
     
+    //MARK: Actions
+        @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
+            // try to downcast the segue’s source view controller to a MealViewController instance.
+            if let sourceViewController = sender.source as? MealViewController, let meal = sourceViewController.meal {
+                // Add a new meal & compute where in the table it will go
+                let newIndexPath = IndexPath(row: meals.count, section: 0)
+                //add to existing list
+
+                meals.append(meal)
+                //animates addition of a new row to the table
+
+                tableView.insertRows(at: [newIndexPath], with: .automatic)
+        }
+    }
+    
 }

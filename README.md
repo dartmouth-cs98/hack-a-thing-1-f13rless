@@ -3,6 +3,7 @@ I attempted to get an ios app up and running. I followed the tutorial [here](htt
 
 <img src="image1.png" width="300" height="550">
 
+<img src="image2.png" width="300" height="550">
 
 
 ### What I learned
